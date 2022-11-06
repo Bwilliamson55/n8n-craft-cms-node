@@ -1,0 +1,37 @@
+{
+	"name": "n8n-nodes-craftcms",
+	"version": "0.1.0",
+	"description": "n8n node to interact with Craft Cms Graphql",
+	"keywords": [
+		"n8n-community-node-package"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/bwilliamson55",
+	"author": {
+		"name": "Ben Williamson",
+		"email": "nope@mygithub.test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Bwilliamson55/n8n-craft-cms-node"
+	},
+	"main": "index.js",
+	"scripts": {
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"credentials": [
+			"dist/credentials/CraftCmsApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/CraftCms/CraftCms.node.js"
+		]
+	},
+	"devDependencies": {
+	},
+	"dependencies": {
+	}
+}
